@@ -1,0 +1,12 @@
+/dist/
+/node_modules/
+/.env
+/.DS_Store
+/.idea/
+/.vscode/
+/.nuxt/
+/.nuxtignore
+/.nuxtg/
+/.nuxtgignore
+/.nuxtg-*
+/.nuxtg-*d
