@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx}\"",
     "build": "npm run build:server && npm run build:client",
     "build:server": "rm -rf dist && mkdir dist && cp ./framework/mock-server/mockServiceWorker.js dist/ && esbuild ./framework/server/index.js --bundle --minify --platform=node --outfile=dist/server.js",
     "build:client": "esbuild ./framework/client/index.js --bundle --minify --platform=browser --outfile=dist/client.js",
