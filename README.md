@@ -76,5 +76,4 @@
 - Implement API rate limiting
 - Add E2E tests with Cypress
 - Set up automated security scanning
-- Implement proper caching strategy
 - Add automated accessibility testing
